@@ -4,7 +4,7 @@ import scrapy
 class QiuBaiSpider(scrapy.Spider):
     name = "qiubai"
     start_urls = [
-        "https: // www.qiushibaike.com /",
+        "https://www.qiushibaike.com/",
     ]
 
     def parse(self, response):
